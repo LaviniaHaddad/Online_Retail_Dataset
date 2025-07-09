@@ -33,17 +33,6 @@ Aplicação com filtros dinâmicos por país, período e produto.
 
 Gráficos interativos construídos com a biblioteca Plotly para melhor experiência.
 
-🚀 Como usar o projeto
-Clone este repositório:
-
-git clone https://github.com/laviniahaddad/Online_Retail_Dataset.git
-Instale as dependências:
-
-pip install -r requirements.txt
-Execute o app Streamlit:
-
-streamlit run app.py
-Use os filtros na barra lateral para explorar as análises interativas.
 
 📦 Estrutura do repositório
 online_retail_cleaned.csv — Dataset limpo utilizado no projeto
