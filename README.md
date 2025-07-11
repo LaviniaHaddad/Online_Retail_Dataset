@@ -1,7 +1,9 @@
 Análise de Dados do Online Retail Dataset
+
 Este projeto apresenta uma análise exploratória e limpeza do conjunto de dados Online Retail, que contém mais de 500 mil registros de vendas internacionais. Além disso, desenvolvi uma aplicação interativa usando Streamlit para facilitar a visualização e exploração dos dados.
 
 📚 Sobre o Dataset
+
 O dataset reúne registros de transações de uma loja de varejo online do Reino Unido, contendo informações como produtos vendidos, quantidades, clientes, preços, datas e países de origem.
 
 ⚙️ Passo a Passo do Projeto
