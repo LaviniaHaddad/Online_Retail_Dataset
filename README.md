@@ -1,56 +1,53 @@
-Análise de Dados do Online Retail Dataset
+# 🛍️ Análise de Dados – Online Retail Dataset
 
-Este projeto apresenta uma análise exploratória e limpeza do conjunto de dados Online Retail, que contém mais de 500 mil registros de vendas internacionais. Além disso, desenvolvi uma aplicação interativa usando Streamlit para facilitar a visualização e exploração dos dados.
+Este projeto aborda a **limpeza**, **análise exploratória** e **visualização interativa** de dados de vendas online com mais de 500 mil registros. Usei **Python**, **SQL** e **Streamlit** para criar insights dinâmicos e profissionais.
 
-📚 Sobre o Dataset
+---
 
-O dataset reúne registros de transações de uma loja de varejo online do Reino Unido, contendo informações como produtos vendidos, quantidades, clientes, preços, datas e países de origem.
+## 📚 Sobre o Dataset
 
-⚙️ Passo a Passo do Projeto
-Importação dos dados
+O dataset contém transações de uma loja de varejo online no Reino Unido, incluindo:
 
-Carregamento do dataset original a partir do arquivo CSV local (online_retail_cleaned.csv).
+- Produtos vendidos  
+- Quantidades  
+- Preços unitários  
+- Datas das transações  
+- Identificadores de clientes  
+- Países de origem  
 
-Limpeza dos dados
+---
 
-Remoção de valores ausentes importantes (CustomerID, Description).
+## ⚙️ Etapas do Projeto
 
-Correção de valores inválidos, como quantidades negativas (indicando devoluções).
+### 🔹 1. Importação dos dados  
+- Carregamento do CSV (`online_retail_cleaned.csv`) como DataFrame com pandas.
 
-Criação da coluna booleana Devolucao para identificar vendas devolvidas.
+### 🔹 2. Limpeza de dados  
+- Remoção de valores ausentes nas colunas `CustomerID` e `Description`  
+- Correção de quantidades negativas (interpretação e marcação como devolução)  
+- Criação da coluna `Devolucao` (boolean) para identificar devoluções
 
-Análises realizadas
+### 🔹 3. Análise exploratória  
+- Estatísticas descritivas das colunas numéricas  
+- Comparação entre vendas e devoluções (análise percentual e gráfico de pizza)  
+- Identificação dos principais países e produtos em termos de volume de vendas  
+- Estudo da evolução mensal das vendas
 
-Resumo estatístico das colunas numéricas.
-
-Comparação entre vendas e devoluções, incluindo percentuais e gráfico de pizza.
-
-Identificação dos principais países e produtos por volume de vendas (gráficos de barras horizontais e verticais).
-
-Análise da evolução mensal das vendas (gráfico de linhas).
-
-Visualização interativa com Streamlit
-
-Aplicação com filtros dinâmicos por país, período e produto.
-
-Gráficos interativos construídos com a biblioteca Plotly para melhor experiência.
+### 🔹 4. Aplicação interativa (Streamlit)  
+- Filtros por país, período e produto  
+- Gráficos interativos usando Plotly  
+- Interface limpa, intuitiva e responsiva  
 
 
-📦 Estrutura do repositório
-online_retail_cleaned.csv — Dataset limpo utilizado no projeto
+---
 
-app.py — Aplicação Streamlit para visualização interativa
+## 🛠️ Tecnologias Utilizadas
 
-README.md — Documentação do projeto
+- **Python 3.x**  
+- **Pandas** – limpeza e manipulação de dados  
+- **Streamlit** – aplicativo web interativo  
+- **Plotly** – gráficos dinâmicos e visualmente ricos  
 
-Outros scripts Python para análises específicas
+---
 
-🛠️ Tecnologias usadas
-Python 3.x
-
-Pandas
-
-Streamlit
-
-Plotly
 
